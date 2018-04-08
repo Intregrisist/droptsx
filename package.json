@@ -1,7 +1,6 @@
 {
-  "name": "component",
+  "name": "droptsx",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "bem-join": "^1.1.2",
     "react": "^16.2.0",
