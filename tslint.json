@@ -1,5 +1,5 @@
 {
-    "extends": ["tslint-react"],
+    "extends": ["tslint:latest", "tslint-react"],
     "rules": {
         "align": [
             true,
@@ -63,11 +63,15 @@
         ],
         "quotemark": [true, "single", "jsx-double"],
         "radix": true,
-        "semicolon": [true, "always"],
+        "semicolon": [true, "never"],
         "switch-default": true,
 
-        "trailing-comma": [false],
-
+        "trailing-comma": [
+			true,
+			{
+				"singleline": "never"
+			}
+		],
         "triple-equals": [ true, "allow-null-check" ],
         "typedef": [
             true,

@@ -1,12 +1,12 @@
-import bemJoin from 'bem-join';
-import * as React from 'react';
-import './app.css';
+import bemJoin from 'bem-join'
+import * as React from 'react'
+import './app.css'
 
-const logo = require('./logo.svg');
+import logo = require('./logo.svg')
 
-const b = bemJoin('app');
+const b = bemJoin('app')
 export default class App extends React.Component {
-	render() {
+	public render() {
 		return (
 			<div className={b()}>
 				<header className={b('header')}>
@@ -17,6 +17,6 @@ export default class App extends React.Component {
 					To get started, edit <code>src/App.tsx</code> and save to reload.
 				</p>
 			</div>
-		);
+		)
 	}
 }
